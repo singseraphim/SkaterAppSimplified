@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/bg_list_entry_med_gray"
+    android:layout_marginBottom="1dp"
+    android:id="@+id/events_list_entry_container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="@id/events_list_entry_container"
+        app:layout_constraintBottom_toBottomOf="@id/events_list_entry_container"
+        android:id="@+id/float_center_container">
+        <TextView
+            android:id="@+id/event_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_mono_bold"
+            android:text="Jump 1: Salchow"
+            android:gravity="start"
+            android:textColor="@color/colorTextGrey"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            app:layout_constraintTop_toTopOf="@+id/float_center_container"
+            app:layout_constraintStart_toStartOf="@id/float_center_container"/>
+        <TextView
+            android:id="@+id/event_timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_mono_bold"
+            android:text="10:04:34"
+            android:gravity="end"
+            android:textColor="@color/colorTextGrey"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintTop_toTopOf="@id/float_center_container"
+            app:layout_constraintStart_toEndOf="@id/event_header"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

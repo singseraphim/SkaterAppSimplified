@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SkaterAppSimplified</string>
+    <string name="no_active_session">No Active Session</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="recording_data">Recording\nData</string>
+    <string name="new_session">New Session</string>
+    <string name="finish">Done</string>
+    <string name="no_events">No Jumps Recorded…</string>
+    <string name="session_complete">Session Complete</string>
+
+</resources>
